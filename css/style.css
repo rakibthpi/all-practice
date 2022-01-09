@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+h1,
+h3,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.mini-mini {
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    border: 3px solid rebeccapurple;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.big-choto {
+    width: 300px;
+    height: 120px;
+    border: 3px solid rosybrown;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
