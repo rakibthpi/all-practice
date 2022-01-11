@@ -119,5 +119,13 @@ li {
 
 .grid-grid {
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 
+.grid-main {
+    border: 1px solid navajowhite;
+    background-color: orange;
+    padding: 50px 20px;
+    text-align: center;
+    text-transform: uppercase;
 }
