@@ -63,11 +63,61 @@ li {
     transition: width 3s ease-in-out, height 3s ease-in-out;
 }
 
-.chakum_chukum:hover {
+/* .chakum_chukum:hover {
     width: 600px;
     height: 500px;
+} */
+.box_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexbox-area {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.flexbox-area1 {
+    /* animation: rakibthpi 2s timing-function delay iteration-count direction fill-mode; */
+    animation: rakibthpi 5s linear 2s infinite alternate;
 }
 
 @keyframes rakibthpi {
-    0% {}
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.grid-grid {
+    display: grid;
+
 }
